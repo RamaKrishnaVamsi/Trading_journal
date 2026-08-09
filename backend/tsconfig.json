@@ -11,8 +11,7 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "declaration": false,
-    "sourceMap": false,
-    "ignoreDeprecations": "6.0"
+    "sourceMap": false
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]

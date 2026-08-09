@@ -21,5 +21,5 @@ app.use("/api/analytics", analyticsRoutes);
 app.get("/api/health", (_req, res) => res.json({ status: "ok" }));
 
 connectDB().then(() => {
-  app.listen(PORT, () => console.log(`[server] running on http://localhost:${PORT}`));
+  app.listen(PORT,"0.0.0.0" ,() => console.log(`[server] running on http://localhost:${PORT}`));
 });
